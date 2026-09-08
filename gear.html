@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Surf Culture | Gear Guide</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a href="index.html" class="brand"><span class="wave-emoji">🌊</span>Surf Culture</a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="gear.html">Gear Guide</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h1>Gear Guide</h1>
+    <p>Board types, and a tool to help you pick the right wetsuit.</p>
+  </section>
+
+  <main class="container">
+    <section>
+      <h2>Common Board Types</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Board Type</th>
+            <th>Typical Length</th>
+            <th>Best For</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Longboard</td>
+            <td>9–11 ft</td>
+            <td>Beginners; smooth, stable rides on smaller waves</td>
+          </tr>
+          <tr>
+            <td>Funboard / Mini-mal</td>
+            <td>7–8.5 ft</td>
+            <td>Progressing surfers moving toward more maneuverability</td>
+          </tr>
+          <tr>
+            <td>Shortboard</td>
+            <td>5.5–7 ft</td>
+            <td>Experienced surfers; sharp turns and steeper waves</td>
+          </tr>
+          <tr>
+            <td>Fish</td>
+            <td>5–6.5 ft</td>
+            <td>Small, weak waves; extra width for speed and float</td>
+          </tr>
+          <tr>
+            <td>Gun</td>
+            <td>7–10 ft</td>
+            <td>Large, fast, powerful waves</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Wetsuit Thickness Finder</h2>
+      <p>Enter the water temperature and get a suggested wetsuit thickness.</p>
+      <div class="tool-box">
+        <form id="wetsuit-form">
+          <label for="water-temp">Water Temperature (°F)</label>
+          <input type="number" id="water-temp" name="water-temp" placeholder="e.g. 60" required />
+          <button class="btn" type="submit">Get Suggestion</button>
+        </form>
+        <div id="wetsuit-result"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Surf Culture. Built for a class assignment with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
